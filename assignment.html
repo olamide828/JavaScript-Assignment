@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+    <script>
+        // Use the. map() method to return a new array where each number is doubled.
+        const number = [9, 3, 4, 6, 2, 7, 10, 1, 5, 8];
+        const multiplication = number.map(x => x * 2);
+        console.log(multiplication)
+
+        //use the. filter() method to return only scores greater than 60.
+        const studentScores =  [45, 67, 89, 34, 90, 76, 54];
+        const scoresGreaterThan60 = studentScores.filter(x => x > 60);
+        console.log(scoresGreaterThan60)
+
+        //.reduce() method on the same scores array to calculate the total sum of scores.
+        // const totalScore =  [45, 67, 89, 34, 90, 76, 54];
+        // const totalScoreReduced = totalScore.reduce()
+        // console.log(scoresGreaterThan60Reduced)
+
+        //ARRAY OF FRUIT
+        let fruit =  ['apple', 'banana', 'mango', 'orange', 'pear'];
+        const Fruit = fruit.slice(2)
+        console.log(Fruit) 
+
+        //ARRAY OF FRUIT SPLICE
+        let fruits =  ['apple', 'banana', 'mango', 'orange', 'pear'];  
+        const Fruits = fruits.splice(3, 0, "Grapes")
+        console.log(fruits) 
+
+        //FIRST STUDENT SCORE
+        const firstStudentScore =  [45, 67, 89, 34, 90, 76, 54];
+        const firstStudentScores = studentScores.find(x => x > 80);
+        console.log(firstStudentScores)
+
+
+        //PRINTING EACH FRUIT IN UPPERCASE
+        const fruitt =  ['apple', 'banana', 'mango', 'orange', 'pear'];
+        fruitt.forEach(fruitt => {
+            console.log(fruitt.toUpperCase())
+        })
+
+        // ARRAY OF NAMES
+        let name = ['John', 'Jane', 'Mark', 'Mary'];
+        console.log (name.includes("Mark"));
+
+        //ARRAY FROM SMALLEST TO LARGEST
+        const num = [9, 3, 4, 6, 2, 7, 10, 1, 5, 8];
+        const x = num.sort();
+        console.log()
+
+        // Combine two arrays ['red', 'blue'] and ['green', 'yellow'] using. concat().
+        const colors = ['red', 'blue'];
+        const color =  ['green', 'yellow'];
+        console.log(colors.concat(color))
+
+
+
+
+
+
+    </script>
+</body>
+</html>
