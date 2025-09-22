@@ -1,1 +1,21 @@
 
+
+
+#user-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.userDetails {
+    border: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}

@@ -14,12 +14,13 @@ const fetchUser = () => {
         userDetails.classList.add("userDetails");
 
         userDetails.innerHTML = `
-        <p>${n.id}<p>
-        <h1>${n.firstName}</h1>
-        <h1>${n.lastName}</h1>
-        <p>${n.maidenName}</p>
-        <small>${n.age}</small>
-        <img src = "${n.image}" >       
+        <img src = "${n.image}" > 
+        <h2>${n.firstName} &nbsp; ${n.lastName}</h2>
+        <p>${n.username}</p>
+        <p>${n.password}<p>
+       
+        <small>${n.gender}</small>
+              
         <p>${n.ip}</p>`;
             
 
