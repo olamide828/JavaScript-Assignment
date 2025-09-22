@@ -21,7 +21,7 @@ const fetchUser = () => {
        
         <small>${n.gender}</small>
               
-        <p>${n.ip}</p>`;
+        <p class="ip">${n.ip}</p>`;
             
 
 
